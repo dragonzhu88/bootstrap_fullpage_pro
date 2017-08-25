@@ -1,0 +1,44 @@
+#nav_menu {
+    margin: 0 auto;
+    padding: 0 10px;
+    position: fixed;
+    left: 360px;
+    list-style-type: none;
+    z-index: 70;
+    background-color: #1e283f;
+
+}
+
+#menu li {
+    float: left;
+    margin: 0 10px 0 0;
+    font-size: 14px;
+}
+
+#nav_menu a {
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    background: none;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+#nav_menu .active a {
+    color: #D90000;
+    background: none;
+    border-bottom: 4px solid #D90000;
+    border-radius: 0;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.section {
+    text-align: center;
+    font: 50px "Microsoft Yahei";
+    color: #000;
+}
+
+#myCarousel{
+    width: 100%;
+}
