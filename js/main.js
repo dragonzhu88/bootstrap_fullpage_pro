@@ -118,19 +118,6 @@ $(function () {
                 setTimeout(function () {
                     $('.ani-lightSpeedIn4').eq(3).addClass('animated lightSpeedIn');
                 }, 2500)
-
-                // setTimeout(function () {
-                //     $('.ani-zoomIn4').eq(0).addClass('animated zoomIn');
-                // }, 3000)
-                // setTimeout(function () {
-                //     $('.ani-zoomIn4').eq(1).addClass('animated zoomIn');
-                // }, 3500)
-                // setTimeout(function () {
-                //     $('.ani-zoomIn4').eq(2).addClass('animated zoomIn');
-                // }, 4000)
-                // setTimeout(function () {
-                //     $('.ani-zoomIn4').eq(3).addClass('animated zoomIn');
-                // }, 4500)
             }
             if (nextIndex == 5) {
                 $('.ani-slideInRight5').addClass('animated slideInRight');
@@ -146,13 +133,9 @@ $(function () {
                     $('.ani-rotateIn6').addClass('animated rotateIn');
                 }, 1000)
                 setTimeout(function () {
-                    $('.ani-bounceIn6').eq(0).addClass('animated bounceIn');
-                    $('.ani-bounceIn6').eq(1).addClass('animated bounceIn');
-                    $('.ani-bounceIn6').eq(4).addClass('animated bounceIn');
-                    $('.ani-bounceIn6').eq(3).addClass('animated bounceIn');
-                    $('.ani-bounceIn6').eq(2).addClass('animated bounceIn');
+                    $('.ani-bounceIn6').addClass('animated bounceIn');
+
                 }, 1500)
-                // $('.ani-bounceIn6').addClass('animated bounceIn');
             }
         }
 
