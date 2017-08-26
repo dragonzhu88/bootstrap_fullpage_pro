@@ -152,13 +152,13 @@ $(function () {
                     $('.ani-bounceIn6').eq(1).addClass('animated bounceIn');
                 }, 2000)
                 setTimeout(function () {
-                    $('.ani-bounceIn6').eq(2).addClass('animated bounceIn');
+                    $('.ani-bounceIn6').eq(4).addClass('animated bounceIn');
                 }, 2500)
                 setTimeout(function () {
                     $('.ani-bounceIn6').eq(3).addClass('animated bounceIn');
                 }, 3000)
                 setTimeout(function () {
-                    $('.ani-bounceIn6').eq(4).addClass('animated bounceIn');
+                    $('.ani-bounceIn6').eq(2).addClass('animated bounceIn');
                 }, 3500)
                 // $('.ani-bounceIn6').addClass('animated bounceIn');
             }
