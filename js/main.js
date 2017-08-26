@@ -1,3 +1,20 @@
+$(document).ready(function () {
+    $('.ani-slideInLeft1').addClass('animated slideInLeft');
+    $('.ani-fadeInRight1').addClass('animated fadeInRight');
+    setTimeout(function () {
+        $('.ani-rotateIn1').addClass('animated rotateIn');
+    }, 1000)
+    setTimeout(function () {
+        $('.ani-slideInDown1').addClass('animated slideInDown');
+        $('.ani-slideInUp1').addClass('animated slideInUp');
+    }, 1500)
+    setTimeout(function () {
+        $('.ani-flip1').addClass('animated flip');
+    }, 2000)
+    setTimeout(function () {
+        $('.ani-rubberBand1').addClass('animated rubberBand');
+    }, 2500)
+})
 $(function () {
     $('#dowebok').fullpage({
         anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
