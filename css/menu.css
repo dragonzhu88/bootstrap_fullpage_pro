@@ -221,8 +221,9 @@
 .product .panel {
     position: absolute;
     top: 34%;
-    width: 12rem;
+    width: 13rem;
     left: 68%;
+    background: transparent;
 }
 
 .product .content {
