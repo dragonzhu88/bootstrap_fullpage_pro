@@ -1,6 +1,151 @@
-$(function(){
+$(function () {
     $('#dowebok').fullpage({
-        anchors: ['page1', 'page2', 'page3', 'page4','page5','page6'],
-        menu: '#nav_menu'
+        anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6'],
+        menu: '#nav_menu',
+        onLeave: function (index, nextIndex, direction) {
+            console.log(index)
+            console.log(nextIndex)
+            if (index == 1) {
+                $('.ani-slideInLeft1').removeClass('animated slideInLeft');
+                $('.ani-slideInDown1').removeClass('animated slideInDown');
+                $('.ani-flip1').removeClass('animated flip');
+                $('.ani-fadeInRight1').removeClass('animated fadeInRight');
+                $('.ani-slideInUp1').removeClass('animated slideInUp');
+                $('.ani-rotateIn1').removeClass('animated rotateIn');
+                $('.ani-rubberBand1').removeClass('animated rubberBand');
+            }
+            if (index == 2) {
+                $('.ani-slideInRight2').removeClass('animated slideInRight');
+                $('.ani-slideInLeft2').removeClass('animated slideInLeft');
+                $('.ani-rubberBand2').removeClass('animated rubberBand');
+                $('.ani-flash2').removeClass('animated flash');
+            }
+            if (index == 3) {
+                $('.ani-jello3').removeClass('animated jello');
+                $('.ani-slideInRight3').removeClass('animated slideInRight');
+            }
+            if (index == 4) {
+                $('.ani-lightSpeedIn4').removeClass('animated lightSpeedIn');
+                $('.ani-zoomIn4').removeClass('animated zoomIn');
+                $('.ani-slideInUp4').removeClass('animated slideInUp');
+            }
+            if (index == 5) {
+                $('.ani-slideInRight5').removeClass('animated slideInRight');
+                $('.ani-slideInLeft5').removeClass('animated slideInLeft');
+                $('.ani-rotateIn5').removeClass('animated rotateIn');
+            }
+            if (index == 6) {
+                $('.ani-slideInRight6').removeClass('animated slideInRight');
+                $('.ani-slideInLeft6').removeClass('animated slideInLeft');
+                $('.ani-rotateIn6').removeClass('animated rotateIn');
+                $('.ani-bounceIn6').removeClass('animated bounceIn');
+            }
+
+            if (nextIndex == 1) {
+                $('.ani-slideInLeft1').addClass('animated slideInLeft');
+                $('.ani-fadeInRight1').addClass('animated fadeInRight');
+                setTimeout(function () {
+                    $('.ani-rotateIn1').addClass('animated rotateIn');
+                }, 1000)
+                setTimeout(function () {
+                    $('.ani-slideInDown1').addClass('animated slideInDown');
+                    $('.ani-slideInUp1').addClass('animated slideInUp');
+                }, 1500)
+                setTimeout(function () {
+                    $('.ani-flip1').addClass('animated flip');
+                }, 2000)
+                setTimeout(function () {
+                    $('.ani-rubberBand1').addClass('animated rubberBand');
+                }, 2500)
+            }
+            if (nextIndex == 2) {
+                $('.ani-slideInRight2').addClass('animated slideInRight');
+                $('.ani-slideInLeft2').addClass('animated slideInLeft');
+                setTimeout(function () {
+                    $('.ani-rubberBand2').addClass('animated rubberBand');
+                }, 1000)
+                setTimeout(function () {
+                    $('.ani-flash2').eq(0).addClass('animated flash');
+                }, 2000)
+                setTimeout(function () {
+                    $('.ani-flash2').eq(1).addClass('animated flash');
+                }, 3000)
+                setTimeout(function () {
+                    $('.ani-flash2').eq(2).addClass('animated flash');
+                }, 4000)
+                setTimeout(function () {
+                    $('.ani-flash2').eq(3).addClass('animated flash');
+                }, 5000)
+                setTimeout(function () {
+                    $('.ani-flash2').eq(4).addClass('animated flash');
+                }, 6000)
+                setTimeout(function () {
+                    $('.ani-flash2').eq(5).addClass('animated flash');
+                }, 7000)
+            }
+            if (nextIndex == 3) {
+                $('.ani-jello3').addClass('animated jello');
+                $('.ani-slideInRight3').addClass('animated slideInRight');
+            }
+            if (nextIndex == 4) {
+                $('.ani-slideInUp4').addClass('animated slideInUp');
+                setTimeout(function () {
+                    $('.ani-lightSpeedIn4').eq(0).addClass('animated lightSpeedIn');
+                }, 1000)
+                setTimeout(function () {
+                    $('.ani-lightSpeedIn4').eq(1).addClass('animated lightSpeedIn');
+                }, 1500)
+                setTimeout(function () {
+                    $('.ani-lightSpeedIn4').eq(2).addClass('animated lightSpeedIn');
+                }, 2000)
+                setTimeout(function () {
+                    $('.ani-lightSpeedIn4').eq(3).addClass('animated lightSpeedIn');
+                }, 2500)
+
+                setTimeout(function () {
+                    $('.ani-zoomIn4').eq(0).addClass('animated zoomIn');
+                }, 3000)
+                setTimeout(function () {
+                    $('.ani-zoomIn4').eq(1).addClass('animated zoomIn');
+                }, 3500)
+                setTimeout(function () {
+                    $('.ani-zoomIn4').eq(2).addClass('animated zoomIn');
+                }, 4000)
+                setTimeout(function () {
+                    $('.ani-zoomIn4').eq(3).addClass('animated zoomIn');
+                }, 4500)
+            }
+            if (nextIndex == 5) {
+                $('.ani-slideInRight5').addClass('animated slideInRight');
+                $('.ani-slideInLeft5').addClass('animated slideInLeft');
+                setTimeout(function () {
+                    $('.ani-rotateIn5').addClass('animated rotateIn');
+                }, 1000)
+            }
+            if (nextIndex == 6) {
+                $('.ani-slideInRight6').addClass('animated slideInRight');
+                $('.ani-slideInLeft6').addClass('animated slideInLeft');
+                setTimeout(function () {
+                    $('.ani-rotateIn6').addClass('animated rotateIn');
+                }, 1000)
+                setTimeout(function () {
+                    $('.ani-bounceIn6').eq(0).addClass('animated bounceIn');
+                }, 1500)
+                setTimeout(function () {
+                    $('.ani-bounceIn6').eq(1).addClass('animated bounceIn');
+                }, 2000)
+                setTimeout(function () {
+                    $('.ani-bounceIn6').eq(2).addClass('animated bounceIn');
+                }, 2500)
+                setTimeout(function () {
+                    $('.ani-bounceIn6').eq(3).addClass('animated bounceIn');
+                }, 3000)
+                setTimeout(function () {
+                    $('.ani-bounceIn6').eq(4).addClass('animated bounceIn');
+                }, 3500)
+                // $('.ani-bounceIn6').addClass('animated bounceIn');
+            }
+        }
+
     });
 });
