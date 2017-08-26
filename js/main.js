@@ -35,7 +35,8 @@ $(function () {
                 $('.ani-slideInRight2').removeClass('animated slideInRight');
                 $('.ani-slideInLeft2').removeClass('animated slideInLeft');
                 $('.ani-rubberBand2').removeClass('animated rubberBand');
-                $('.ani-flash2').removeClass('animated flash');
+                $('.ani-fadeInLeft2').removeClass('animated fadeInLeft');
+                $('.ani-fadeInRight2').removeClass('animated fadeInRight');
             }
             if (index == 3) {
                 $('.ani-jello3').removeClass('animated jello');
@@ -82,23 +83,23 @@ $(function () {
                     $('.ani-rubberBand2').addClass('animated rubberBand');
                 }, 1000)
                 setTimeout(function () {
-                    $('.ani-flash2').eq(0).addClass('animated flash');
+                    $('.ani-fadeInLeft2').eq(0).addClass('animated fadeInLeft');
                 }, 2000)
                 setTimeout(function () {
-                    $('.ani-flash2').eq(1).addClass('animated flash');
+                    $('.ani-fadeInLeft2').eq(1).addClass('animated fadeInLeft');
+                }, 2500)
+                setTimeout(function () {
+                    $('.ani-fadeInLeft2').eq(2).addClass('animated fadeInLeft');
                 }, 3000)
                 setTimeout(function () {
-                    $('.ani-flash2').eq(2).addClass('animated flash');
+                    $('.ani-fadeInLeft2').eq(3).addClass('animated fadeInLeft');
+                }, 3500)
+                setTimeout(function () {
+                    $('.ani-fadeInRight2').eq(0).addClass('animated fadeInRight');
                 }, 4000)
                 setTimeout(function () {
-                    $('.ani-flash2').eq(3).addClass('animated flash');
-                }, 5000)
-                setTimeout(function () {
-                    $('.ani-flash2').eq(4).addClass('animated flash');
-                }, 6000)
-                setTimeout(function () {
-                    $('.ani-flash2').eq(5).addClass('animated flash');
-                }, 7000)
+                    $('.ani-fadeInRight2').eq(1).addClass('animated fadeInRight');
+                }, 4500)
             }
             if (nextIndex == 3) {
                 $('.ani-jello3').addClass('animated jello');
