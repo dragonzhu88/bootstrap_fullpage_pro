@@ -273,55 +273,45 @@
 }
 
 .product_instance .app-img-left {
-    transform: rotate(-45deg);
-    -ms-transform: rotate(-45deg); /* Internet Explorer */
-    -moz-transform: rotate(-45deg); /* Firefox */
-    -webkit-transform: rotate(-45deg); /* Safari 和 Chrome */
-    -o-transform: rotate(-45deg); /* Opera */
     position: absolute;
 }
 
 .product_instance .app-img-right {
-    transform: rotate(45deg);
-    -ms-transform: rotate(45deg); /* Internet Explorer */
-    -moz-transform: rotate(45deg); /* Firefox */
-    -webkit-transform: rotate(45deg); /* Safari 和 Chrome */
-    -o-transform: rotate(45deg); /* Opera */
     position: absolute;
 }
 
 .product_instance .app1 {
-    top: 23%;
-    left: 48%;
-    width: 33rem;
+    top: 30%;
+    left: 39%;
+    width: 37rem;
 }
 
 .product_instance .app2 {
-    width: 12rem;
-    left: 39%;
+    width: 20rem;
+    left: 35%;
     top: 16%;
 }
 
 .product_instance .app3 {
-    width: 12rem;
+    width: 20rem;
     top: 10%;
-    left: 54%;
+    left: 49%;
 }
 
 .product_instance .app4 {
-    width: 11rem;
+    width: 20rem;
     top: 53%;
-    left: 48%;
+    left: 42%;
 }
 
 .product_instance .app5 {
-    top: 53%;
-    left: 62.3%;
-    width: 11.5rem;
+    top: 51.5%;
+    left: 56.3%;
+    width: 20rem;
 }
 
 .product_instance .app6 {
-    width: 31rem;
+    width: 40rem;
     top: 40%;
     left: 21%;
 }

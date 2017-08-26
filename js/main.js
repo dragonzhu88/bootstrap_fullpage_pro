@@ -39,7 +39,9 @@ $(function () {
                 $('.ani-fadeInRight2').removeClass('animated fadeInRight');
             }
             if (index == 3) {
-                $('.ani-jello3').removeClass('animated jello');
+                $('.ani-slideInLeft3').removeClass('animated slideInLeft');
+                $('.ani-slideInUp3').removeClass('animated slideInUp');
+                $('.ani-slideInDown3').removeClass('animated slideInDown');
                 $('.ani-slideInRight3').removeClass('animated slideInRight');
             }
             if (index == 4) {
@@ -80,29 +82,19 @@ $(function () {
                 $('.ani-slideInRight2').addClass('animated slideInRight');
                 $('.ani-slideInLeft2').addClass('animated slideInLeft');
                 setTimeout(function () {
-                    $('.ani-rubberBand2').addClass('animated rubberBand');
+                    $('.ani-fadeInLeft2').addClass('animated fadeInLeft');
                 }, 1000)
                 setTimeout(function () {
-                    $('.ani-fadeInLeft2').eq(0).addClass('animated fadeInLeft');
+                    $('.ani-fadeInRight2').addClass('animated fadeInRight');
+                }, 1500)
+                setTimeout(function () {
+                    $('.ani-rubberBand2').addClass('animated rubberBand');
                 }, 2000)
-                setTimeout(function () {
-                    $('.ani-fadeInLeft2').eq(1).addClass('animated fadeInLeft');
-                }, 2500)
-                setTimeout(function () {
-                    $('.ani-fadeInLeft2').eq(2).addClass('animated fadeInLeft');
-                }, 3000)
-                setTimeout(function () {
-                    $('.ani-fadeInLeft2').eq(3).addClass('animated fadeInLeft');
-                }, 3500)
-                setTimeout(function () {
-                    $('.ani-fadeInRight2').eq(0).addClass('animated fadeInRight');
-                }, 4000)
-                setTimeout(function () {
-                    $('.ani-fadeInRight2').eq(1).addClass('animated fadeInRight');
-                }, 4500)
             }
             if (nextIndex == 3) {
-                $('.ani-jello3').addClass('animated jello');
+                $('.ani-slideInLeft3').addClass('animated slideInLeft');
+                $('.ani-slideInUp3').addClass('animated slideInUp');
+                $('.ani-slideInDown3').addClass('animated slideInDown');
                 $('.ani-slideInRight3').addClass('animated slideInRight');
             }
             if (nextIndex == 4) {
