@@ -127,7 +127,6 @@ $(function () {
                 }, 1000)
                 setTimeout(function () {
                     $('.ani-bounceIn6').addClass('animated bounceIn');
-
                 }, 1500)
             }
         }
